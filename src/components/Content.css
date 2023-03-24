@@ -1,0 +1,53 @@
+#container-top-content{
+   position: relative;
+   color: white;
+   font-weight: 600;
+   background-image: url("../assets//img/Viajes_Hero.jpg");
+   background-repeat: no-repeat;
+   background-size: cover;
+   height: 100%;
+   width: 100%;
+}
+
+#text-content{
+    position: absolute;
+    z-index: 100;
+}
+
+#container-number{
+   display: grid;
+   margin-top: 30vh;
+   margin-bottom:-3vh;
+}
+
+#display-number {
+   border-bottom:  5px solid #d35e6f;
+   margin-right: -5vh;
+   margin-bottom: 3.5vh;
+   margin-left: -16vh;
+}
+
+#circle-number-top{
+    border-radius: 100px;
+    background-color: rgba(219, 217, 217, 0.678);
+    padding: 0.5px;
+}
+
+#circle-number-top h6{
+    border-radius: 100px;
+    padding:1.5vh;
+    background-color: rgb(245, 237, 237);
+    font-family: 'Montserrat', sans-serif;
+  font-size: 0.7rem;
+
+}
+
+#next-adventure{
+    border: dashed 2px grey;
+    background-color: rgba(48, 45, 45, 0.548);
+    padding: 2vh;
+   margin-top:50vh;
+}
+#next-adventure h5{
+    color: #d35e6f;
+}
