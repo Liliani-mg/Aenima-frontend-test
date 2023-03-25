@@ -7,7 +7,7 @@ function NavBar() {
   const isMobile = useMediaQuery({ query: '(max-width: 768px)' })
    
   return (
-    <nav class={isMobile ? "navbar navbar-expand-md navbar-light bg-light pt-2 pb-2 shadow-sm bg-body " : "navbar navbar-expand-md navbar-light bg-light pt-2 pb-2 shadow-sm p-5 bg-body "}>
+    <nav class={isMobile ? "navbar navbar-expand-md navbar-light bg-light pt-2 pb-2 shadow-sm bg-body " : "navbar navbar-expand-md navbar-light bg-light pt-2 pb-2 shadow-sm p-5 bg-body fixed-top"}>
       <img src="src\assets\logo\logo_01.png" alt="logo" class="m-5 mt-0 mb-0" width={isMobile && 85} />
       <button
         class={isMobile ?"navbar-toggler border-0 mt-0 mb-0":"navbar-toggler border-0 m-5 mt-0 mb-0"}
