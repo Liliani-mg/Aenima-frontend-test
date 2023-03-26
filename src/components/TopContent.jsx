@@ -7,7 +7,7 @@ function TopContent() {
 
   return (
     <div class="d-flex flex-column-2 bg-light">
-      <div class="d-flex  p-5 " id="container-top-content">
+      <div class="d-flex  p-4 " id="container-top-content">
         <div
           class={
             isMobile
@@ -18,23 +18,23 @@ function TopContent() {
           <div id="title-content" class="d-flex flex-column m-1 mt-5 mb-3 ">
             <div class=" d-flex flex-row border-bottom border-2 border-white mt-5 ">
               <img
-                class="ms-1 mt-2 mb-0"
+                class="ms-1 mt-2 mb-1"
                 src="src\assets\iconos\ic_pin.png"
-                weight={isMobile ? 20 : 30}
-                height={isMobile ? 20 : 30}
+                weight={isMobile ? 17 : 30}
+                height={isMobile ? 17 : 30}
                 alt=""
               />
               <h1
                 class={
                   isMobile
-                    ? "ms-3 mb-3 mt-0 fw-bold fs-3"
+                    ? "ms-2 mb-2 mt-1 pb-2 fw-bold fs-3"
                     : "m-3 mt-0 fw-bold fs-1 "
                 }
               >
                 AMERICA DEL SUR
               </h1>
             </div>
-            <h3 class="mt-3 fs-4 fw-bold lh-base">
+            <h3 class="mt-2 fs-4 fw-bold lh-base">
               Lugares maravillosos por America del Sur
             </h3>
             {!isMobile && (
@@ -49,7 +49,7 @@ function TopContent() {
                 {" "}
               </p>
               <div id="circle-number-top">
-                <h6 class="text-dark fw-bold m-2  lh-1 ">01</h6>
+                <h6 class="text-dark fw-bold m-2 lh-1 ">01</h6>
               </div>
             </div>
           </div>
@@ -59,8 +59,8 @@ function TopContent() {
           <div class="d-flex flex-row-2 w-75 justify-content-end ">
             <div></div>
             <div class="d-flex flex-column w-50 ">
-              <div id="next-adventure" class="ms-4">
-                <h5 class="fw-bold fs-6 mt-2 mb-1 ">
+              <div id="next-adventure" class="ms-4 p-3">
+                <h5 class="fw-bold fs-5 mt-2 mb-1 ">
                   {" "}
                   PRÓXIMA AVENTURA{" "}
                   <img class="ms-2" src="src\assets\iconos\arrow.png" alt="" />
