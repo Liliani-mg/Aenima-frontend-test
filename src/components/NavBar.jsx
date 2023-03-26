@@ -1,7 +1,6 @@
 import React from "react";
 import { useMediaQuery } from "react-responsive";
 import("./NavBar.css");
-// const logo = import ("../assets/logo/logo_01.svg")
 
 function NavBar() {
   const isMobile = useMediaQuery({ query: '(max-width: 768px)' })
@@ -23,19 +22,19 @@ function NavBar() {
       </button>
       <div class={isMobile ? "collapse navbar-collapse " : "collapse navbar-collapse d-flex justify-content-end "} id="navbarText">
        
-          <ul class="navbar-nav mr-3">
-            <li class="nav-item active">
-              <a class="nav-link" href="#">
+          <ul class="navbar-nav mx-5 px-5">
+            <li class="nav-item active mx-1">
+              <a class="nav-link " href="#">
                 HOME{" "}
               </a>
             </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">
+            <li class="nav-item mx-1">
+              <a class="nav-link " href="#">
                 TENDENCIAS
               </a>
             </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">
+            <li class="nav-item mx-2">
+              <a class="nav-link " href="#">
                 BLOG
               </a>
             </li>
