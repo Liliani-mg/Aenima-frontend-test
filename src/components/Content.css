@@ -21,7 +21,7 @@
 }
 
 #display-number {
-   border-bottom:  5px solid #d35e6f;
+   border-bottom:  5px solid #d85e70;
    margin-right: -5vh;
    margin-bottom: 3.5vh;
    margin-left: -16vh;
@@ -38,16 +38,98 @@
     padding:1.5vh;
     background-color: rgb(245, 237, 237);
     font-family: 'Montserrat', sans-serif;
-  font-size: 0.7rem;
+    font-size: 0.6rem;
 
 }
+
 
 #next-adventure{
     border: dashed 2px grey;
     background-color: rgba(48, 45, 45, 0.548);
-    padding: 2vh;
+    padding: 1.5vh;
    margin-top:50vh;
 }
 #next-adventure h5{
     color: #d35e6f;
+}
+#container-tendencias{
+    background-color: rgb(224, 224, 224);
+padding-bottom: 30vh;
+}
+#container-tendencias h1{
+   font-weight: 800;
+}
+#container-cards{
+    font-family: 'Montserrat', sans-serif;
+}
+#container-cards p{
+    font-size: 1.8vh;
+    font-weight:400;
+    color: rgb(128, 123, 123);
+}
+#container-cards h5{
+    font-size: 1.4vh;
+    font-weight: 800;
+}
+#badge-new{
+    background-color: #e7677b;
+    margin-top: -4.5vh;
+    font-size: 0.7rem;
+    padding-top: 1vh;
+    padding-bottom: 1vh;
+}
+#badge-new-desktop{
+    background-color: #e7677b;
+    margin-top: 24vh;
+    margin-left: 4vh;
+    font-size: 0.8rem;
+    padding-top: 1vh;
+    padding-bottom: 1vh;
+}
+
+#container-blog-cards{
+    margin-top: -27vh;
+    margin-bottom: 17vh;
+    font-family: 'Montserrat', sans-serif;
+}
+#container-blog-cards h1{
+    font-weight: 800;
+    font-size: 3.6vh;
+   
+}
+#container-blog-cards h6{
+    font-weight: 300;
+}
+#container-blog-cards h5{
+    font-weight: 600;
+    font-size: 3.7vh;
+
+}
+#container-blog-cards h4{
+    font-weight: 600;
+    font-size: 2vh;
+}
+#container-blog-cards p{
+  color:rgb(204, 186, 186);
+  font-size: 1.8vh;
+  font-weight: 500;
+}
+
+#blog-card-body-desktop{
+    margin-top: 36vh;
+}
+
+#blog-card-body-mobile{
+    margin-top: 40vh;
+   
+}
+#blog-card-body-mobile h5{
+    font-size: 3vh
+   
+}
+#tendencias-img-card{
+ height: 61vh;
+ width: 80vh;
+ 
+ 
 }
