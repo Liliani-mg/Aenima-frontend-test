@@ -1,11 +1,13 @@
 import React from 'react'
+import BlogCards from './BlogCards'
 import Tendencias from './Tendencias'
 import ("./Content.css")
 
 function SecondContent() {
   return (
-    <div   class="bg-light d-flex flex-colum ">
+    <div id="container-second-content" class="d-flex flex-column">
       <Tendencias/>
+      <BlogCards/>
     </div>
   )
 }
