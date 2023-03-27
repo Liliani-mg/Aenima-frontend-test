@@ -1,7 +1,7 @@
 import React from 'react'
 import BlogCards from './BlogCards'
 import Tendencias from './Tendencias'
-import ("./Content.css")
+import ("../styles/Content.css")
 
 function SecondContent() {
   return (

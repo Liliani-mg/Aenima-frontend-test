@@ -1,6 +1,6 @@
 import React from "react";
 import { useMediaQuery } from "react-responsive";
-import("./Content.css");
+import("../styles/Content.css");
 
 function Tendencias() {
     const isMobile = useMediaQuery({ query: "(max-width: 900px)" });
@@ -11,27 +11,27 @@ function Tendencias() {
         id:2,
       image: "src/assets/img/card_01.png",
       title: "Montañas y magia",
-      description: "Aquí la descripción para Montañas y magia",
+      description: "Aquí la descripción para Montañas y magia.",
     },
     {
         id:1,
       image: "src/assets/img/card_02.png",
       title: "Playas y sol",
-      description: "La descripción de Playas y sol debe seresta",
+      description: "La descripción de Playas y sol debe seresta.",
     },
     {
         id:0,
       image: "src/assets/img/card_03.png",
       title: "Nieve y aventura",
-      description: "Contiene la informació  de nieve y aventura",
+      description: "Contiene la informació  de nieve y aventura.",
     },
   ];
   const lastIn = info.find(e => e.id === Math.max(e.id))
   return (
-    <div id="container-tendencias" class="d-flex flex-column">
+    <div id="container-tendencias" class="d-flex flex-column align-items-center">
       <div id="container-cards" class="d-flex flex-column justify-content-center">
-        <h1 class="text-dark fs-4 mx-3 px-4 pb-0 mt-5 pt-3">TENDENCIAS</h1>
-        <div class="d-md-flex flex-row ms-3  mb-2">
+        <h1 class="text-dark  pb-3 mt-5 pt-3 "> TENDENCIAS</h1>
+        <div class="d-md-flex flex-row justify-content-center mb-3">
 
             {
                 !isMobile
@@ -39,7 +39,7 @@ function Tendencias() {
             
                     info.map((e) => {
                   return (
-                        <div key={e.id} class="card border-0 m-4 w-50 shadow-sm ms-5 bg-body rounded">
+                        <div key={e.id} class="card border-0 m-1  w-25 shadow-sm ms-2 bg-body rounded">
                           <img
                             src={e.image}
                             class="card-img-top img-fluid "
@@ -49,8 +49,8 @@ function Tendencias() {
                            <span id="badge-new-desktop" class="badge position-absolute ">NUEVO</span>
                           }
                           <div class="card-body ms-2">
-                            <h5 class="card-title mt-2 fs-6">{e.title}</h5>
-                            <p class="card-text mt-2 mb-3">
+                            <h5 class="card-title mt-3">{e.title}</h5>
+                            <p class="card-text mt-2 mb-4">
                               {e.description}
                             </p>
                           </div>

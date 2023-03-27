@@ -4,14 +4,16 @@ import Footer from './Footer'
 import NavBar from './NavBar'
 import SecondContent from './SecondContent'
 import TopContent from './TopContent'
+import ("../styles/ContainerLanding.css")
 
 function ContainerLanding() {
 
-  const isMobile = useMediaQuery({ query: "(max-width: 900px)" });
+  // const isMobile = useMediaQuery({ query: "(max-width: 900px)" });
+  // class={!isMobile&&"mx-5 px-5"}
   return (
-    <div id='container' class="">
+    <div id='container' >
       <NavBar/>
-      <div class={!isMobile&&"mx-5 px-5"}>
+      <div >
       <TopContent/>
       <SecondContent/>
       

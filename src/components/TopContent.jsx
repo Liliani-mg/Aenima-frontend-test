@@ -1,13 +1,13 @@
 import React from "react";
 import { useMediaQuery } from "react-responsive";
-import "./Content.css";
+import ("../styles/Content.css");
 
 function TopContent() {
   const isMobile = useMediaQuery({ query: "(max-width: 900px)" });
 
   return (
     <div class="d-flex flex-column-2 bg-light">
-      <div class="d-flex  p-4 " id="container-top-content">
+      <div class="d-flex  p-5 my-4 mb-0 " id="container-top-content">
         <div
           class={
             isMobile
@@ -15,30 +15,30 @@ function TopContent() {
               : "w-75 d-flex justify-content-center"
           }
         >
-          <div id="title-content" class="d-flex flex-column m-1 mt-5 mb-3 ">
+          <div id="title-content" class="d-flex flex-column m-1 mt-5 mb-3 pt-5 px-5 ">
             <div class=" d-flex flex-row border-bottom border-2 border-white mt-5 ">
               <img
                 class="ms-1 mt-2 mb-1"
                 src="src\assets\iconos\ic_pin.png"
-                weight={isMobile ? 17 : 30}
-                height={isMobile ? 17 : 30}
+                weight={isMobile ? 17 : 26}
+                height={isMobile ? 17 : 26}
                 alt=""
               />
               <h1
                 class={
                   isMobile
                     ? "ms-2 mb-2 mt-1 pb-2 fw-bold fs-3"
-                    : "m-3 mt-0 fw-bold fs-1 "
+                    : "m-3 mt-0 pb-2 "
                 }
               >
                 AMERICA DEL SUR
               </h1>
             </div>
-            <h3 class="mt-2 fs-4 fw-bold lh-base">
+            <h3 class="mt-3 lh-base">
               Lugares maravillosos por America del Sur
             </h3>
             {!isMobile && (
-              <p class="fw-normal lh-base fs-6">
+              <p class="lh-base ">
                 Estos son algunos lugares que elijen la mayoría de los turistas
                 que visitan America del Sur.
               </p>
@@ -58,15 +58,15 @@ function TopContent() {
         {!isMobile && (
           <div class="d-flex flex-row-2 w-75 justify-content-end ">
             <div></div>
-            <div class="d-flex flex-column w-50 ">
-              <div id="next-adventure" class="ms-4 p-3">
-                <h5 class="fw-bold fs-5 mt-2 mb-1 ">
+            <div class="d-flex flex-column">
+              <div id="next-adventure" class="">
+                <h5 class="mt-2 mb-2 mx-2 lh-2">
                   {" "}
                   PRÓXIMA AVENTURA{" "}
-                  <img class="ms-2" src="src\assets\iconos\arrow.png" alt="" />
+                  <img class="ms-2 pb-1" src="src\assets\iconos\arrow.png" width={4.8} alt="" />
                 </h5>
-                <p class="fw-bold mb-2">Europa Meridional</p>
-                <p class="fw-normal lh-2">
+                <h6 class="fw-bold mb-2 mx-2">Europa Meridional</h6>
+                <p class="fw-normal lh-2 mx-2">
                   Forman parte veinte países, ej. España, Francia, etc.
                 </p>
               </div>

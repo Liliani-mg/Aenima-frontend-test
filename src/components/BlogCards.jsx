@@ -1,15 +1,15 @@
 import React from "react";
 import { useMediaQuery } from "react-responsive";
-import("./Content.css");
+import("../styles/Content.css");
 
 function BlogCards() {
   const isMobile = useMediaQuery({ query: "(max-width: 900px)" });
 
   return (
     <div id="container-blog-cards" class="d-flex flex-column mb-5">
-      <h1 class= {isMobile&&"text-dark mx-5 "}>BLOG</h1>
+      <h1 class= {isMobile?"text-dark mx-5 ":"text-dark"}>BLOG</h1>
 
-      <div class={isMobile?"d-flex flex-column align-items-center":"d-flex flex-column-2 justify-content-center "}>
+      <div id={!isMobile&&"cards-blog-desktop"} class={isMobile?"d-flex flex-column align-items-center":"d-flex flex-column-2 align-items-center justify-content-center "}>
         <div
           classs={
             isMobile ? "d-flex flex-row w-100" : "d-flex flex-column w-75"
@@ -34,7 +34,7 @@ function BlogCards() {
                   </h6>
                 )}
                 <p>
-                  <img src="src\assets\iconos\time.png" alt="icono reloj" />{" "}
+                  <img width={13} src="src\assets\iconos\time.png" alt="icono reloj" />{" "}
                   Hace 2m
                 </p>
               </div>
