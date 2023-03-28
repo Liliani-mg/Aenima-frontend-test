@@ -34,6 +34,7 @@ Los archivos de estilos en la carpeta styles<br/>
 
 
 
+
 <hr/>
 
 
@@ -47,6 +48,10 @@ Este proyecto se ha construido utilizando las siguientes tecnologías:
 </ul>
 
 <hr/>
+<img src="https://user-images.githubusercontent.com/80003324/228346943-ead4d4ec-59db-4494-8f98-f91f2c236850.png"/>
+<img src="https://user-images.githubusercontent.com/80003324/228347170-193b14a8-49f7-4258-ae96-c9980892ee75.png"/>
+
+
 
 ## Puede encontrar el proyecto desplegado en este <a href="https://aenima-frontend-test.vercel.app/">LINK</a>
 
