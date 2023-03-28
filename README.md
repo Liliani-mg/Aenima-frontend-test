@@ -7,8 +7,6 @@ La Página es completamente responsiva, pudiendo adaptarse a la version Mobile y
 
 <hr/>
 
-## Puede encontrar el proyecto desplegado en este <a href="https://aenima-frontend-test.vercel.app/">LINK</a>
-
 
 ## Instalación y Uso Local
 Para instalar y utilizar este proyecto, siga los siguientes pasos:
@@ -47,4 +45,8 @@ Este proyecto se ha construido utilizando las siguientes tecnologías:
     <li>CSS</li>
     <li>Bootstrap</li>
 </ul>
+
+<hr/>
+
+## Puede encontrar el proyecto desplegado en este <a href="https://aenima-frontend-test.vercel.app/">LINK</a>
 
