@@ -86,14 +86,14 @@ const iconClock="https://res.cloudinary.com/dxsvkn4eo/image/upload/v1680022750/a
               />
 
               <div class="card-body">
-                <h6 class="card-title fw-bold pt-2">Articulo de elefante</h6>
+                <h6 class="card-title fw-bold my-1">Articulo de elefante</h6>
                 <p>
                   <img width={13}src={iconClock} alt="icono reloj" />{" "}
                   Hace 3h
                 </p>
               </div>
             </div>
-            <div class="card border-0 mt-2 ms-3 bg-body">
+            <div class="card border-0 mt-2 ms-2 bg-body">
               <img
                 src={imgSmLoro}
                 class="card-img-top rounded-0  img-fluid "
@@ -101,14 +101,14 @@ const iconClock="https://res.cloudinary.com/dxsvkn4eo/image/upload/v1680022750/a
               />
 
               <div class="card-body">
-                <h6 class="card-title fw-bold  pt-2 ">Artículo de loro</h6>
+                <h6 class="card-title fw-bold my-1  ">Artículo de loro</h6>
                 <p>
                   <img width={13} src={iconClock} alt="icono reloj" />{" "}
                   Hace 4h
                 </p>
               </div>
             </div>
-            <div class="card border-0 mt-1 ms-3 bg-body">
+            <div class="card border-0 mt-1 ms-2 bg-body">
               <img
                 src={imgSmCamino}
                 class="card-img-top rounded-0  img-fluid "
@@ -116,7 +116,7 @@ const iconClock="https://res.cloudinary.com/dxsvkn4eo/image/upload/v1680022750/a
               />
 
               <div class="card-body">
-                <h6 class="card-title fw-bold  pt-2">Artículo de camino</h6>
+                <h6 class="card-title fw-bold my-1">Artículo de camino</h6>
                 <p>
                   <img width={13} src={iconClock} alt="icono reloj" />{" "}
                   Hace 8h
