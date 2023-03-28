@@ -181,6 +181,10 @@
 
 }
 
+#cards-blog-mobile img{
+   object-fit: cover;
+}
+
 #container-blog-cards h1{
     font-weight: 800;
     font-size: 3.3vh;
@@ -227,6 +231,8 @@
     margin-top: 40vh;
    
 }
+
+
 #blog-card-body-mobile h5{
     font-size: 3vh
    

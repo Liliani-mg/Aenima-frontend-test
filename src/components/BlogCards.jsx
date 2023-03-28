@@ -52,7 +52,7 @@ const iconClock="https://res.cloudinary.com/dxsvkn4eo/image/upload/v1680022750/a
           <div class="card border-0 mt-5 bg-body rounded">
             <img
               src={imgAventura}
-              class="card-img-top img-fluid "
+              class="card-img-top img-fluid  "
               alt="..."
               id="tendencias-img-card"
             />

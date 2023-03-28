@@ -8,6 +8,7 @@ function NavBar() {
   const logo = "https://res.cloudinary.com/dxsvkn4eo/image/upload/v1680022923/aenima/img/logo_01_zzrzvl.png"
    
   return (
+   
     <nav class={isMobile ? "navbar navbar-expand-md navbar-light bg-light pt-2 pb-2 shadow-sm bg-body " : "navbar navbar-expand-md navbar-light bg-light py-1 shadow-sm px-5 bg-body fixed-top"}>
       <img src={logo} alt="logo" class="mx-5 px-2 mt-0 mb-0" width={isMobile ? 85 : 90} />
       <button
