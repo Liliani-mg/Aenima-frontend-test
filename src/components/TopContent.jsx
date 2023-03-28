@@ -7,7 +7,7 @@ function TopContent() {
 
   return (
     <div class="d-flex flex-column-2 bg-light">
-      <div class="d-flex  p-5 my-4 mb-0 " id="container-top-content">
+      <div id="container-top-content" class={isMobile?"d-flex  p-3 mt-0 my-5 mb-0 " :"d-flex  p-5 my-4 mb-0 "}>
         <div
           class={
             isMobile
@@ -15,19 +15,19 @@ function TopContent() {
               : "w-75 d-flex justify-content-center"
           }
         >
-          <div id="title-content" class="d-flex flex-column m-1 mt-5 mb-3 pt-5 px-5 ">
+          <div id="title-content" class={isMobile?"d-flex flex-column m-3 mt-5 pt-5 ":"d-flex flex-column m-1 mt-5 mb-3 pt-5 px-5 "}>
             <div class=" d-flex flex-row border-bottom border-2 border-white mt-5 ">
               <img
                 class="ms-1 mt-2 mb-1"
                 src="src\assets\iconos\ic_pin.png"
-                weight={isMobile ? 17 : 26}
-                height={isMobile ? 17 : 26}
+                weight={isMobile ? 16 : 26}
+                height={isMobile ? 16 : 26}
                 alt=""
               />
               <h1
                 class={
                   isMobile
-                    ? "ms-2 mb-2 mt-1 pb-2 fw-bold fs-3"
+                    ? "ms-2 mb-2 mt-0 pb-2 fw-bold fs-3"
                     : "m-3 mt-0 pb-2 "
                 }
               >
@@ -44,8 +44,8 @@ function TopContent() {
               </p>
             )}
 
-            <div id="container-number" class="d-inline-flex  ">
-              <p id="display-number" class=" w-50">
+            <div id={isMobile?"container-number-mobile" :"container-number" }class="d-inline-flex  ">
+              <p id="display-number" class="">
                 {" "}
               </p>
               <div id="circle-number-top">

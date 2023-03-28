@@ -6,8 +6,8 @@ function NavBar() {
   const isMobile = useMediaQuery({ query: '(max-width: 768px)' })
    
   return (
-    <nav class={isMobile ? "navbar navbar-expand-md navbar-light bg-light pt-2 pb-2 shadow-sm bg-body " : "navbar navbar-expand-md navbar-light bg-light pt-2 pb-2 shadow-sm p-5 bg-body fixed-top"}>
-      <img src="src\assets\logo\logo_01.png" alt="logo" class="m-5 mt-0 mb-0" width={isMobile ? 85 : 76} />
+    <nav class={isMobile ? "navbar navbar-expand-md navbar-light bg-light pt-2 pb-2 shadow-sm bg-body " : "navbar navbar-expand-md navbar-light bg-light py-1 shadow-sm px-5 bg-body fixed-top"}>
+      <img src="src\assets\logo\logo_01.png" alt="logo" class="mx-5 px-2 mt-0 mb-0" width={isMobile ? 85 : 90} />
       <button
         class={isMobile ?"navbar-toggler border-0 mt-0 mb-0":"navbar-toggler border-0 m-5 mt-0 mb-0"}
         type="button"
@@ -22,7 +22,7 @@ function NavBar() {
       </button>
       <div class={isMobile ? "collapse navbar-collapse " : "collapse navbar-collapse d-flex justify-content-end "} id="navbarText">
        
-          <ul class="navbar-nav mx-5 px-5">
+          <ul class="navbar-nav mx-5 px-4">
             <li class="nav-item active mx-1">
               <a class="nav-link " href="#">
                 HOME{" "}

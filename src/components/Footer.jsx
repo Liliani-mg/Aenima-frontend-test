@@ -15,10 +15,10 @@ function Footer() {
       <div class={isMobile?"my-1 mx-4":"mx-5  px-5"}>
         <ul class="nav  justify-content-end list-unstyled d-flex flex-row pt-3">
           <li class="ms-2 p-2 pt-0 pb-0">
-            <img width={11} src="src\assets\iconos\instagram.png" alt="instagram" />
+            <img width={isMobile?15:11} src="src\assets\iconos\instagram.png" alt="instagram" />
           </li>
           <li class="ms-2">
-            <img width={11} src="src\assets\iconos\facebook.png" alt="facebook" />
+            <img width={isMobile?15:11} src="src\assets\iconos\facebook.png" alt="facebook" />
           </li>
         </ul>
       </div>

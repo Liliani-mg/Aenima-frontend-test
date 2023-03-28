@@ -6,16 +6,18 @@ function BlogCards() {
   const isMobile = useMediaQuery({ query: "(max-width: 900px)" });
 
   return (
-    <div id="container-blog-cards" class="d-flex flex-column mb-5">
-      <h1 class= {isMobile?"text-dark mx-5 ":"text-dark"}>BLOG</h1>
+    <div id={isMobile? "container-blog-cards-mobile" : "container-blog-cards"} class="d-flex flex-column mb-5">
 
-      <div id={!isMobile&&"cards-blog-desktop"} class={isMobile?"d-flex flex-column align-items-center":"d-flex flex-column-2 align-items-center justify-content-center "}>
+      <h1  class= {isMobile?"text-dark mx-5 mb-0 "
+      : "text-dark "}>BLOG</h1>
+
+      <div id={isMobile ? "cards-blog-mobile" : "cards-blog-desktop" } class={isMobile ? "d-flex flex-column align-items-center" : "d-flex flex-column-2 align-items-center justify-content-center"}>
         <div
           classs={
-            isMobile ? "d-flex flex-row w-100" : "d-flex flex-column w-75"
+            isMobile ? "d-flex flex-row w-100" : "d-flex flex-column"
           }
         >
-          <div class="card border-0 mt-4 bg-body rounded">
+          <div class="card border-0 mt-5 bg-body rounded">
             <img
               src="src\assets\img\articulo_big_01.png"
               class="card-img-top img-fluid"
@@ -68,48 +70,48 @@ function BlogCards() {
         </div>
 
         {!isMobile && (
-          <div class="d-flex flex-column w-25">
-            <div class="card border-0 mt-4 ms-4 bg-body">
+          <div id="blog-little-cards" class="d-flex flex-column">
+            <div  class="card border-0 ms-2 bg-body">
               <img
                 src="src\assets\img\articulo_small_01.png"
                 class="card-img-top rounded-0 img-fluid "
                 alt="..."
               />
 
-              <div class="card-body ms-2">
-                <h6 class="card-title mt-2 fw-bold">Articulo de elefante</h6>
+              <div class="card-body">
+                <h6 class="card-title fw-bold">Articulo de elefante</h6>
                 <p>
-                  <img src="src\assets\iconos\time.png" alt="icono reloj" />{" "}
+                  <img width={13} src="src\assets\iconos\time.png" alt="icono reloj" />{" "}
                   Hace 3h
                 </p>
               </div>
             </div>
-            <div class="card border-0 mt-2 ms-4 bg-body">
+            <div class="card border-0 mt-2 ms-3 bg-body">
               <img
                 src="src\assets\img\articulo_small_02.png"
                 class="card-img-top rounded-0  img-fluid "
                 alt="..."
               />
 
-              <div class="card-body ms-2">
-                <h6 class="card-title mt-2 fw-bold ">Artículo de loro</h6>
+              <div class="card-body">
+                <h6 class="card-title fw-bold ">Artículo de loro</h6>
                 <p>
-                  <img src="src\assets\iconos\time.png" alt="icono reloj" />{" "}
+                  <img width={13} src="src\assets\iconos\time.png" alt="icono reloj" />{" "}
                   Hace 4h
                 </p>
               </div>
             </div>
-            <div class="card border-0 mt-1 ms-4 bg-body">
+            <div class="card border-0 mt-1 ms-3 bg-body">
               <img
                 src="src\assets\img\articulo_small_03.png"
                 class="card-img-top rounded-0  img-fluid "
                 alt="..."
               />
 
-              <div class="card-body ms-2">
-                <h6 class="card-title mt-2 fw-bold">Artículo de camino</h6>
+              <div class="card-body">
+                <h6 class="card-title fw-bold">Artículo de camino</h6>
                 <p>
-                  <img src="src\assets\iconos\time.png" alt="icono reloj" />{" "}
+                  <img width={13} src="src\assets\iconos\time.png" alt="icono reloj" />{" "}
                   Hace 8h
                 </p>
               </div>

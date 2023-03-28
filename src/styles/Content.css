@@ -28,16 +28,21 @@
 }
 #container-number{
    display: grid;
-   margin-top: 30vh;
-   margin-bottom:-3vh;
+   margin-top: 40vh;
+   margin-bottom:-4vh;
 }
+#container-number-mobile{
+    display: grid;
+    margin-top: 25vh;
+    margin-bottom:1vh;
+ }
 
 #display-number {
-   border-bottom:  4.4px solid #d85e70;
+   border-bottom:  4.4px solid #db6476;
    margin-right: -5vh;
    margin-bottom: 3.3vh;
-   margin-left: -33vh;
-
+   margin-left: -16.6vh;
+   width: 23.3vh;
 }
 
 #circle-number-top{
@@ -65,7 +70,7 @@
     padding-left:2vh;
     padding-right:1vh;
     padding-bottom:1vh;
-    margin-top:67vh;
+    margin-top:81vh;
     margin-left:16vh;
     margin-right:-6vh;
     width:60%;
@@ -81,20 +86,29 @@
 #next-adventure p{
     font-size: 1.9vh;
 }
+
+
+#container-second-content{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+}
+
 #container-tendencias{
     background-color: rgb(236, 233, 233);
     padding-bottom: 30vh;
+    
 }
 
 #container-tendencias h1{
    font-weight: 800;
-   font-size: 3vh;
-   margin-left: 20.9vh; 
+   font-size: 3.1vh;
+   margin-left: 23vh; 
 }
 
 #container-cards{
     font-family: 'Montserrat', sans-serif;
-    width: 90%;
+    width: 100%;
     
 }
 #container-cards p{
@@ -103,7 +117,7 @@
     color: rgb(128, 123, 123);
 }
 #container-cards h5{
-    font-size: 2.12vh;
+    font-size: 2vh;
     font-weight: 800;
 }
 #badge-new{
@@ -117,24 +131,60 @@
     background-color: #f86e83;
     margin-top: 21vh;
     margin-left: 4.5vh;
-    font-size: 0.76rem;
+    font-size: 0.71rem;
     padding-top: 1vh;
     padding-bottom: 1vh;
 }
 
+
 #container-blog-cards{
-    margin-top: -22.5vh;
+    margin-top: -22.3vh;
+    width: 100%;
     margin-bottom: 17vh;
     font-family: 'Montserrat', sans-serif;
 }
-#cards-blog-desktop{
- margin-top:-4.3vh;
- margin-left:-8.6vh;
+#container-blog-cards-mobile {
+    margin-top: -22.2vh;
+    width: 100%;
+    margin-bottom: 17vh;
+    font-family: 'Montserrat', sans-serif;
 }
+#container-blog-cards-mobile h1{
+    font-weight: 800;
+    font-size: 3.6vh;
+    margin-left:22vh;
+}
+#container-blog-cards-mobile h6{
+    font-weight: 300;
+}
+#container-blog-cards-mobile h5{
+    font-weight: 600;
+    font-size: 3.7vh;
+
+}
+#container-blog-cards-mobile h4{
+    font-weight: 600;
+    font-size: 2.3vh;
+}
+#container-blog-cards-mobile p{
+  color:rgb(202, 194, 194);
+  font-size: 1.8vh;
+  font-weight: 500;
+ 
+}
+#cards-blog-desktop{
+ margin-top:-5.5vh;
+ 
+}
+#cards-blog-mobile{
+    margin-top: -4.1vh;
+
+}
+
 #container-blog-cards h1{
     font-weight: 800;
-    font-size: 3.2vh;
-    margin-left:31vh;
+    font-size: 3.3vh;
+    margin-left:22vh;
    
 }
 #container-blog-cards h6{
@@ -158,6 +208,7 @@
 
 #blog-card-body-desktop{
     margin-top: 35vh;
+  
 }
 
 #blog-card-body-desktop h5{
@@ -179,6 +230,16 @@
 #blog-card-body-mobile h5{
     font-size: 3vh
    
+}
+#blog-little-cards {
+  width: 21.4%;
+  margin-left:1.5vh;
+}
+#blog-little-cards h6{
+    font-size: 2.1vh;
+}
+#blog-little-cards p{
+    font-size: 1.7vh;
 }
 #tendencias-img-card{
  height: 61vh;

@@ -1,7 +1,6 @@
 #nav{
     background-color: white;
     position: fixed;
-    width: 100%;
     z-index: 100;
     font-family: 'Montserrat', sans-serif;
 }
@@ -17,4 +16,5 @@
 }
 #navbarText a:hover{
     color:black;
+    font-weight: 600;
 }
