@@ -49,7 +49,7 @@ const iconClock="https://res.cloudinary.com/dxsvkn4eo/image/upload/v1680022750/a
               </div>
             </div>
           </div>
-          <div class="card border-0 mt-5 bg-body rounded">
+          <div class="card border-0 mt-4 bg-body rounded">
             <img
               src={imgAventura}
               class="card-img-top img-fluid  "
@@ -86,7 +86,7 @@ const iconClock="https://res.cloudinary.com/dxsvkn4eo/image/upload/v1680022750/a
               />
 
               <div class="card-body">
-                <h6 class="card-title fw-bold">Articulo de elefante</h6>
+                <h6 class="card-title fw-bold pt-2">Articulo de elefante</h6>
                 <p>
                   <img width={13}src={iconClock} alt="icono reloj" />{" "}
                   Hace 3h
@@ -101,7 +101,7 @@ const iconClock="https://res.cloudinary.com/dxsvkn4eo/image/upload/v1680022750/a
               />
 
               <div class="card-body">
-                <h6 class="card-title fw-bold ">Artículo de loro</h6>
+                <h6 class="card-title fw-bold  pt-2 ">Artículo de loro</h6>
                 <p>
                   <img width={13} src={iconClock} alt="icono reloj" />{" "}
                   Hace 4h
@@ -116,7 +116,7 @@ const iconClock="https://res.cloudinary.com/dxsvkn4eo/image/upload/v1680022750/a
               />
 
               <div class="card-body">
-                <h6 class="card-title fw-bold">Artículo de camino</h6>
+                <h6 class="card-title fw-bold  pt-2">Artículo de camino</h6>
                 <p>
                   <img width={13} src={iconClock} alt="icono reloj" />{" "}
                   Hace 8h

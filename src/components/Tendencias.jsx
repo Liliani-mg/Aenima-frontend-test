@@ -22,7 +22,7 @@ const imgNieveYAventuras=  "https://res.cloudinary.com/dxsvkn4eo/image/upload/v1
           class={
             isMobile
               ? "text-dark ms-5 mb-0 mt-5 pt-3 fs-4 "
-              : "text-dark  pb-2 mt-5 pt-3 "
+              : "text-dark ps-2 pb-2 mt-5 pt-3 "
           }
         >
           {" "}
