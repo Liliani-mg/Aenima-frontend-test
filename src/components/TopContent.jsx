@@ -4,6 +4,8 @@ import ("../styles/Content.css");
 
 function TopContent() {
   const isMobile = useMediaQuery({ query: "(max-width: 900px)" });
+  const iconPin="https://res.cloudinary.com/dxsvkn4eo/image/upload/v1680022749/aenima/ic_pin_eeqoa4.png"
+  const iconArrow="https://res.cloudinary.com/dxsvkn4eo/image/upload/v1680022749/aenima/arrow_etkkaf.png"
 
   return (
     <div class="d-flex flex-column-2 bg-light">
@@ -19,7 +21,7 @@ function TopContent() {
             <div class=" d-flex flex-row border-bottom border-2 border-white mt-5 ">
               <img
                 class="ms-1 mt-2 mb-1"
-                src="src\assets\iconos\ic_pin.png"
+                src={iconPin}
                 weight={isMobile ? 16 : 26}
                 height={isMobile ? 16 : 26}
                 alt=""
@@ -63,7 +65,7 @@ function TopContent() {
                 <h5 class="mt-2 mb-2 mx-2 lh-2">
                   {" "}
                   PRÓXIMA AVENTURA{" "}
-                  <img class="ms-2 pb-1" src="src\assets\iconos\arrow.png" width={4.8} alt="" />
+                  <img class="ms-2 pb-1"  src={iconArrow} width={4.8} alt="" />
                 </h5>
                 <h6 class="fw-bold mb-2 mx-2">Europa Meridional</h6>
                 <p class="fw-normal lh-2 mx-2">

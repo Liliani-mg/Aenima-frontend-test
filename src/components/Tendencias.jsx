@@ -5,6 +5,10 @@ import("../styles/Content.css");
 function Tendencias() {
   const isMobile = useMediaQuery({ query: "(max-width: 900px)" });
 
+const imgMontañasyMagia =  "https://res.cloudinary.com/dxsvkn4eo/image/upload/v1680022961/aenima/img/card_01_jtbtfr.png";
+const imgPlayasYSol="https://res.cloudinary.com/dxsvkn4eo/image/upload/v1680022962/aenima/img/card_02_vnhnnz.png"
+const imgNieveYAventuras=  "https://res.cloudinary.com/dxsvkn4eo/image/upload/v1680022962/aenima/img/card_03_wxuot4.png"
+
   return (
     <div
       id="container-tendencias"
@@ -29,7 +33,7 @@ function Tendencias() {
             <>
               <div class="card border-0 m-1 w-25 shadow-sm ms-2 bg-body rounded">
                 <img
-                  src="src/assets/img/card_01.png"
+                  src={imgMontañasyMagia}
                   class="card-img-top img-fluid"
                   alt="..."
                 />
@@ -48,7 +52,7 @@ function Tendencias() {
               </div>
               <div class="card border-0 m-1 w-25 shadow-sm ms-2 bg-body rounded">
                 <img
-                  src="src/assets/img/card_02.png"
+                  src={imgPlayasYSol}
                   class="card-img-top img-fluid"
                   alt="..."
                 />
@@ -61,7 +65,7 @@ function Tendencias() {
               </div>
               <div class="card border-0 m-1 w-25 shadow-sm ms-2 bg-body rounded">
                 <img
-                  src="src/assets/img/card_03.png"
+                     src={imgNieveYAventuras}
                   class="card-img-top img-fluid"
                   alt="..."
                 />
@@ -76,7 +80,7 @@ function Tendencias() {
           ) : (
             <div class="card border-0  mx-5 my-4 mb-0 w-75 shadow-sm  bg-body rounded">
               <img
-                src="src/assets/img/card_01.png"
+                   src={imgMontañasyMagia}
                 class="card-img-top img-fluid"
                 alt="..."
               />

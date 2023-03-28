@@ -4,6 +4,13 @@ import("../styles/Content.css");
 
 function BlogCards() {
   const isMobile = useMediaQuery({ query: "(max-width: 900px)" });
+  const imgCiudad ="https://res.cloudinary.com/dxsvkn4eo/image/upload/v1680022961/aenima/img/articulo_big_01_yda3na.png"
+  const imgAventura ="https://res.cloudinary.com/dxsvkn4eo/image/upload/v1680022961/aenima/img/articulo_big_02_kjviwu.png"
+  const imgSmElefante ="https://res.cloudinary.com/dxsvkn4eo/image/upload/v1680022961/aenima/img/articulo_small_01_tvaxug.png"
+  const imgSmLoro ="https://res.cloudinary.com/dxsvkn4eo/image/upload/v1680022961/aenima/img/articulo_small_02_my5bjn.png"
+  const imgSmCamino ="https://res.cloudinary.com/dxsvkn4eo/image/upload/v1680022961/aenima/img/articulo_small_03_ocrall.png"
+const iconClock="https://res.cloudinary.com/dxsvkn4eo/image/upload/v1680022750/aenima/time_vqdowv.png"
+
 
   return (
     <div id={isMobile? "container-blog-cards-mobile" : "container-blog-cards"} class="d-flex flex-column mb-5">
@@ -19,7 +26,7 @@ function BlogCards() {
         >
           <div class="card border-0 mt-5 bg-body rounded">
             <img
-              src="src\assets\img\articulo_big_01.png"
+              src={imgCiudad}
               class="card-img-top img-fluid"
               alt="..."
               id="tendencias-img-card"
@@ -36,7 +43,7 @@ function BlogCards() {
                   </h6>
                 )}
                 <p>
-                  <img width={13} src="src\assets\iconos\time.png" alt="icono reloj" />{" "}
+                  <img width={13} src={iconClock} alt="icono reloj" />{" "}
                   Hace 2m
                 </p>
               </div>
@@ -44,7 +51,7 @@ function BlogCards() {
           </div>
           <div class="card border-0 mt-5 bg-body rounded">
             <img
-              src="src\assets\img\articulo_big_02.png"
+              src={imgAventura}
               class="card-img-top img-fluid "
               alt="..."
               id="tendencias-img-card"
@@ -61,7 +68,7 @@ function BlogCards() {
                   </h6>
                 )}
                 <p>
-                  <img src="src\assets\iconos\time.png" alt="icono reloj" />{" "}
+                  <img src={iconClock} alt="icono reloj" />{" "}
                   Hace 15m
                 </p>
               </div>
@@ -73,7 +80,7 @@ function BlogCards() {
           <div id="blog-little-cards" class="d-flex flex-column">
             <div  class="card border-0 ms-2 bg-body">
               <img
-                src="src\assets\img\articulo_small_01.png"
+                src={imgSmElefante}
                 class="card-img-top rounded-0 img-fluid "
                 alt="..."
               />
@@ -81,14 +88,14 @@ function BlogCards() {
               <div class="card-body">
                 <h6 class="card-title fw-bold">Articulo de elefante</h6>
                 <p>
-                  <img width={13} src="src\assets\iconos\time.png" alt="icono reloj" />{" "}
+                  <img width={13}src={iconClock} alt="icono reloj" />{" "}
                   Hace 3h
                 </p>
               </div>
             </div>
             <div class="card border-0 mt-2 ms-3 bg-body">
               <img
-                src="src\assets\img\articulo_small_02.png"
+                src={imgSmLoro}
                 class="card-img-top rounded-0  img-fluid "
                 alt="..."
               />
@@ -96,14 +103,14 @@ function BlogCards() {
               <div class="card-body">
                 <h6 class="card-title fw-bold ">Artículo de loro</h6>
                 <p>
-                  <img width={13} src="src\assets\iconos\time.png" alt="icono reloj" />{" "}
+                  <img width={13} src={iconClock} alt="icono reloj" />{" "}
                   Hace 4h
                 </p>
               </div>
             </div>
             <div class="card border-0 mt-1 ms-3 bg-body">
               <img
-                src="src\assets\img\articulo_small_03.png"
+                src={imgSmCamino}
                 class="card-img-top rounded-0  img-fluid "
                 alt="..."
               />
@@ -111,7 +118,7 @@ function BlogCards() {
               <div class="card-body">
                 <h6 class="card-title fw-bold">Artículo de camino</h6>
                 <p>
-                  <img width={13} src="src\assets\iconos\time.png" alt="icono reloj" />{" "}
+                  <img width={13} src={iconClock} alt="icono reloj" />{" "}
                   Hace 8h
                 </p>
               </div>
